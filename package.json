@@ -2,7 +2,7 @@
   "name": "typescript-node-protractor",
   "version": "0.1.0",
   "description": "starter for typescript-node-protractor unit-testing",
-  "main": "NewPLUser.spec.js",
+  "main": "dist/src/site.spec.js",
   "scripts": {
     "test": "clear && protractor config/protractor.config.js"
   },

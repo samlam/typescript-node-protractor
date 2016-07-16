@@ -7,11 +7,10 @@ $> webdriver-manager update
 
 ```
 
-Run 
-```
+To Run 
+```bash
+#run these in separate terminals or use gulp/grunt
 $> tsc -w
 $> webdriver-manager start
 $> npm test
-
-
 ```
