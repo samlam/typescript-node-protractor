@@ -1,0 +1,35 @@
+{
+  "name": "typescript-node-protractor",
+  "version": "0.1.0",
+  "description": "starter for typescript-node-protractor unit-testing",
+  "main": "NewPLUser.spec.js",
+  "scripts": {
+    "test": "clear && protractor config/protractor.config.js"
+  },
+  "author": "Samuel Lam <sam@samlam.com>",
+  "license": "MIT",
+  "homepage":"",
+  "keywords":[
+    "typescript",
+    "test",
+    "testing",
+    "node",
+    "nodejs",
+    "protractor",
+    "selenium"
+  ],
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "reflect-metadata": "0.1.3",
+    "es6-shim": "0.35.1"
+  },
+  "devDependencies": {
+    "codelyzer": "0.0.24",
+    "protractor": "^4.0.0",
+    "ts-node": "^0.9.3",
+    "tslint": "^3.12.1",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.1"
+  }
+}
