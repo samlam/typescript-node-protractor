@@ -1,8 +1,8 @@
 import * as http from 'http';
 
 export class sampleApi {
-    apiHost:string = 'dv04slam01.loopnet.com';
-    apiPath:string = 'xNet/WebServices/EcomApi/User/Create';
+    apiHost:string = 'some.web.site';
+    apiPath:string = 'path/to/method';
     apiPort:number = 80;
 
     constructor(public requestOptions:http.RequestOptions = null ){
