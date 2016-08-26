@@ -10,7 +10,7 @@
     "noEmitOnError": true,
     "noImplicitAny": false,
     "outDir": "dist/",
-    "rootDir": ".",
+    "rootDir": "src",
     "sourceMap": true,
     "target": "es5",
     "inlineSources": true
